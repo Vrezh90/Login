@@ -14,7 +14,7 @@ const LoginForm = (props) => {
     return (
             <form onSubmit={props.handleSubmit} >
                 <div>
-                    <Field type="text"
+                    <Field type="text" // vrej.aleqsanyan.1990@mail.ru
                            style={{height:'40px', width:'300px', borderRadius:"5px", borderWidth:'1px'}}
                            placeholder="Email Address*"
                            validate={[required]}
@@ -22,7 +22,7 @@ const LoginForm = (props) => {
                            component={Input}/>
                 </div>
                 <div>
-                    <Field type="password"
+                    <Field type="password" // d30230490
                            style={{height:'40px', width:'300px', marginTop:'20px', borderRadius:"5px", borderWidth:'1px'}}
                            placeholder="Password*"
                            name={"password"}
